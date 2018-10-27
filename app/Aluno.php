@@ -9,7 +9,7 @@ class Aluno extends Model
     protected $fillable = [
         'ra', 
         'nomealuno',
-        
+        'curso'
     ];
 
     
