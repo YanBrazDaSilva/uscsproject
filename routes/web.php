@@ -11,5 +11,9 @@
 |
 */
 
+Route::get('/',function(){
+    return 'Bar Errado';
+});
+
 Route::resource('cadastroAACC', 'controle_alunos');
 
