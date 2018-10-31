@@ -12,7 +12,7 @@
 */
 
 Route::get('/',function(){
-    return 'Bar Errado';
+    return 'Bar Certo';
 });
 
 Route::resource('cadastroAACC', 'controle_alunos');
