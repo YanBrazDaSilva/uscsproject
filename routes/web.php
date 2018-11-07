@@ -11,5 +11,6 @@
 |
 */
 
-Route::resource('cadastroAACC', 'controle_alunos');
+
+Route::resource('/cadastroAACC', 'controle_alunos');
 

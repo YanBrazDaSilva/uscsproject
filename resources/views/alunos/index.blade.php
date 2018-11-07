@@ -3,7 +3,7 @@
 
 @section('conteudo')
 
-    <!DOCTYPE html>
+    <!--<!DOCTYPE html>
 <html>
 <head>
     <title>Responsive Bootstrap jQuery Grid</title>
@@ -61,5 +61,41 @@
     </script>
 </body>
 </html>
+-->
+            <div class="col-xs-6">
+                <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>RA</th>
+                        <th>Nome do Aluno</th>
+                        <th>Curso</th>
+                    </tr>
+
+                    <tbody>
+                       @if(count($alunos) > 0)
+                        @foreach($alunos as $aluno)
+                        <tr>
+                            <td><div class="col-md-6">
+                                {{$aluno->ra}}
+                            </div></td>
+
+                            <td><div class="col-md-6">
+                            {{aluno->nomealuno}}
+                            </div></td>
+
+                            <td><div class="col-md-6">
+                            {{$aluno->curso}}
+                            </div></td>
+
+                        </tr>
+                        @endforeach
+
+                      @endif
+                    </body>
+
+                </table>
+
+            </div>
+
 
 @endsection

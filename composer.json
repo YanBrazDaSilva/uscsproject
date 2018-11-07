@@ -9,7 +9,7 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "nesbot/carbon": "^2.3"
+        "nesbot/carbon": "2.3 as 1.26.3"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -54,7 +54,10 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+		 "platform": {
+        "php": "7.1.13"
+		}
     },
     "minimum-stability": "dev",
     "prefer-stable": true
