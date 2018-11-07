@@ -61,7 +61,8 @@
     </script>
 </body>
 </html>
--->
+--> 
+            <!-- Nova Table -->
             <div class="col-xs-6">
                 <table class="table table-bordered table-hover">
                 <thead>
