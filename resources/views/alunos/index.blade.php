@@ -63,6 +63,7 @@
 </html>
 --> 
             <!-- Nova Table -->
+            <h1>Lista de Alunos Inscritos</h1>
             <div class="col-xs-6">
                 <table class="table table-bordered table-hover">
                 <thead>
